@@ -1,0 +1,117 @@
+html, body {
+    min-height:100%;
+    width: 100%;
+    height: 100%;
+}
+* {
+    padding:0px;
+    margin:0px;
+    font-family: Verdana, Arial, sans-serif;
+}
+.layout {
+    height: 100%;
+}
+.center, .east, .west, .north, .south {
+    text-align: center;
+    display: inline-block;
+}
+.west, .east {
+    width: 250px;
+}
+.north, .south {
+    height: 30px;
+}
+#framePage, #frameModule {
+    width:99%;
+    min-height:99%;
+}
+div#sidebar {
+    min-height:100%;
+}
+div#search {
+    background-color: silver;
+    padding: 5px;
+}
+#filterinput{
+    width: 70%;
+    padding-right:25px;
+}
+#closefilter{
+    width: 15%;
+    margin: 0px 1px;
+    border-radius: 4px;
+    height: 24px;
+    border: 2px solid #cccccc;
+    background-color: #eeeeee;
+}
+span.clearfilter {
+    vertical-align: bottom !important;
+    margin-left: -28px;
+}
+span.imgsearch {
+    vertical-align: bottom !important;
+    margin-left: -25px;
+}
+span.imgsearch img, span.clearfilter img {
+    margin-bottom: -5px;
+}
+.list {
+  font-family:sans-serif;
+}
+.list > li {
+    cursor: pointer;
+    margin: 4px 2px;
+    display: block;
+    text-align: left;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12px;
+}
+.list > li:hover {
+    text-decoration: underline;
+}
+#modalsearch {
+    width: 40%;
+    height: 40%;
+}
+.w2ui-field {
+    margin-top: 10px !important;
+    float: left;
+}
+.w2ui-field div, .w2ui-node-group, .w2ui-node-caption {
+    text-align: left;
+}
+input[type=number] {
+    text-align: right;
+}
+.w2ui-sidebar-div > .w2ui-node {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.img_view {
+    background: url(images/img_view.png) no-repeat center!important;
+}
+.img_report {
+    background: url(images/img_report.png) no-repeat center!important;
+}
+.img_action {
+    background: url(images/img_action.png) no-repeat center!important;
+}
+.img_maintenance {
+    background: url(images/img_maintenance.png) no-repeat center!important;
+}
+.configure {
+    padding: 12px 8px !important;
+}
+.addmultivalue {
+    margin-left: 5px;
+    padding: 12px 6px 2px 6px;
+    border: 1px solid #fff;
+}
+.addmultivalue:hover {
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    background-color: #eeeeee;
+}
+.w2ui-field-helper.w2ui-list {
+    min-height: 50px !important;
+}
