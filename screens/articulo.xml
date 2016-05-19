@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<screen>
+    <table>usuario</table>
+    <title></title>
+    <toolbar>
+        <nobutton></nobutton>
+    </toolbar>
+    <body>
+        <control>
+            <type>field</type>
+            <source>codigo</source>
+        </control>
+        <control>
+            <type>field</type>
+            <source>nombre</source>
+        </control>
+        <control>
+            <type>field</type>
+            <source>marca</source>
+        </control>
+        <control>
+            <type>field</type>
+            <source>description</source>
+        </control>
+		<control>
+            <type>field</type>
+            <source>unidad</source>
+        </control>
+		<control>
+            <type>field</type>
+            <source>stock</source>
+        </control>
+		<control>
+            <type>field</type>
+            <source>activo</source>
+        </control>
+		<control>
+            <type>field</type>
+            <source>preciounitario</source>
+        </control>
+    </body>
+</screen>

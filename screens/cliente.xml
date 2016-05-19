@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<screen>
+    <table>cliente</table>
+    <title></title>
+    <toolbar>
+        <nobutton></nobutton>
+    </toolbar>
+    <body>
+        <control>
+            <type>field</type>
+            <source>nombre</source>
+        </control>
+		<control>
+            <type>field</type>
+            <source>apellidopaterno</source>
+        </control>
+		<control>
+            <type>field</type>
+            <source>apellidomaterno</source>
+        </control>
+		<control>
+            <type>field</type>
+            <source>razonsocial</source>
+        </control>
+		<control>
+            <type>field</type>
+            <source>rfc</source>
+        </control>
+        <control>
+            <type>field</type>
+            <source>direccion</source>
+        </control>
+		<control>
+            <type>custom</type>
+            <source><![CDATA[<div class="w2ui-field w2ui-span8" style="float: left"><label>Teléfono(s)</label><div><input role="enum" style="width: 200px"><span id="" class="addmultivalue"><img src="./styles/images/img_newphone.png" alt="Agregar" height="20" width="20"></span></div></div>]]></source>
+        </control>
+		<control>
+            <type>container</type>
+			<title>Documentos adjuntos</title>
+            <controls>
+				<control>
+					<type>custom</type>
+					<source><![CDATA[<div class="w2ui-field w2ui-span8" style="float: left"><label>Documentos</label><div><input id="cliente_documentos" role="attachment" style="width: 600px;"></div></div>]]></source>
+				</control>
+			</controls>
+        </control>
+		<control>
+            <type>container</type>
+			<title></title>
+            <controls>
+				<control>
+					<type>field</type>
+					<source>direccion</source>
+				</control>
+			</controls>
+        </control>
+    </body>
+</screen>
